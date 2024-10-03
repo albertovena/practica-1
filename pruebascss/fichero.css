@@ -1,0 +1,16 @@
+h1{
+    color: #fdf8f8;
+    text-align: left;
+}
+fieldset{
+    text-align: left;
+}
+legend{
+    text-align: center;
+}
+body{
+    
+    text-align: center;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+}
