@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="fichero.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>W3cschools</h1>
+    <form action="/home/albertov/Escritorio/entrega.html" method="get">
+        <br>
+        <br>
+        <fieldset>
+            <legend><strong>type color</strong></legend>
+            <label for="favcolor">Selecciona tu color favorito</label>
+            <input type="color" id="favcolor" name="favcolor">
+            <p>Lo que hace es utilizar campos de entrada que tienen que contener un color, también nos muestra los diferentes colores existentes</p>
+        </fieldset>
+        <fieldset>
+            <legend><strong>type date</strong></legend>
+            <label for="Cumpleaños">Cumpleaños:</label>
+            <input type="date" id="Cumpleaños" name="Cumpleaños">
+            <p>Se utilizan para campos que deben de contener una fecha, puede aparecer un selector de fecha en el campo de entrada</p>
+        </fieldset>
+        <fieldset>
+            <legend><strong>type datetime-local</strong></legend>
+            <label for="cumpleañosTime">Cumpleaños (fecha y hora) : </label>
+            <input type="datetime-local" id="cumpleañosTime" name="cumpleañosTime">
+            <p>Se utiliza igual que en el de type date pero te permite seleccionar también una franja horaria</p>
+        </fieldset>
+        <fieldset>
+            <legend><strong>type email</strong></legend>
+            <label for="email">Introduce tu email: </label>
+            <input type="email" id="email" name="email">
+            <p>Te obliga para que el texto introducido tenga si o si la estructura que tiene un correo electrónico, algunos telefonos reconocen el correo y agregan el .com</p>
+        </fieldset>
+        <fieldset>
+            <legend><strong>type month</strong></legend>
+            <label for="mescumpleaños">Cumpleaños (mes y año) : </label>
+            <input type="month" id="mescumpleaños" name="mescumpleaños">
+            <p>Permite al usuario seleccionar solo un mes y un año, además de poder seleccionar directamente el mes en el que estamos</p>
+        </fieldset>
+        <fieldset>
+            <legend><strong>type number</strong></legend>
+            <label for="cantidad">cantidad (elige entre 1 o 5):</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" max="5">
+            <p>Podemos seleccionar un numero en un intervali de cantidades que nosotros pongamos</p>
+        </fieldset>  
+        <fieldset>
+            <legend><strong>type range</strong></legend>
+            <label for="vol">Volume (entre 0 y 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+            <p>Se usa para ingresar un numero cuyo valor exacto no es importante</p>
+        </fieldset>   
+        <fieldset>
+            <legend><strong>type search</strong></legend>
+            <label for="searchg">Buscar google: </label>
+            <input type="search" id="searchg" name="search">
+            <p> Se utiliza para campos de búsqueda</p>
+        </fieldset>   
+        <fieldset>
+            <legend> <strong>type tel</strong> </legend>
+            <label for="telefono">Introduce tu número de teléfono: </label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            <p>Se utiliza para campos de entrada que deben contener un número de teléfono</p>
+        </fieldset>
+        <fieldset>
+            <legend><strong>type time</strong></legend>
+            <label for="hora">Selecciona una hora: </label>
+            <input type="time" id="hora" name="hora">
+            <p>Permite al usuario seleccionar una hora exacta(sin zona horaria) </p>
+        </fieldset>
+        <fieldset>
+            <legend><strong>type url</strong></legend>
+            <label for="pagina web">Añade tu página web: </label>
+            <input type="url" id="pagina web" name="pagina web">
+            <p>Se utiliza para campos que deben de contener direcciones URL</p>
+        </fieldset>
+        <fieldset>
+            <legend><strong>type week</strong></legend>
+            <label for="semana">Selecciona una semana</label>
+            <input type="week" id="semana" name="semana">
+            <p>Permite al usuario seleccionar una semana y un año</p>
+        </fieldset>
+    </form>
+</body>
+</html>
